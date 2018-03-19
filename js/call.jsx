@@ -21,7 +21,7 @@ import App from './containers/App.jsx'
 ReactDOM.render((
      <div>
        {/* <App/> */}
-       <p>Coming soon...</p>
+       <h1 style={{textAlign: 'center', marginTop: '150px'}}>Coming soon...</h1>
      </div>
      ),
      document.getElementById('root')
