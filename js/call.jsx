@@ -20,7 +20,8 @@ import App from './containers/App.jsx'
 //only need to send up both components to app 
 ReactDOM.render((
      <div>
-       <App/>
+       {/* <App/> */}
+       <p>Coming soon...</p>
      </div>
      ),
      document.getElementById('root')
