@@ -78,7 +78,11 @@
 	ReactDOM.render(React.createElement(
 	    'div',
 	    null,
-	    React.createElement(_App2.default, null)
+	    React.createElement(
+	        'h1',
+	        { style: { textAlign: 'center', marginTop: '150px' } },
+	        'Coming soon...'
+	    )
 	), document.getElementById('root'));
 
 /***/ }),
