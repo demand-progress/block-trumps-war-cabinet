@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Form from './Form.jsx';
-import Video from './Video.jsx';
 
 class Main extends Component {
 
@@ -15,7 +14,6 @@ class Main extends Component {
                 </div>
                 
                 <div className="unit">
-                    <Video />
                     <h4 style={{color: 'white', textAlign: 'center'}}>More information:</h4>
                     <p style={{ textAlign: 'center' }}>
                         <b>What’s Going in Yemen?</b>                      
