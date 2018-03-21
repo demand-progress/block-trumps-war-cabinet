@@ -5126,10 +5126,6 @@
 	
 	var _Form2 = _interopRequireDefault(_Form);
 	
-	var _Video = __webpack_require__(/*! ./Video.jsx */ 48);
-	
-	var _Video2 = _interopRequireDefault(_Video);
-	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -5168,7 +5164,6 @@
 	                    _react2.default.createElement(
 	                        'div',
 	                        { className: 'unit' },
-	                        _react2.default.createElement(_Video2.default, null),
 	                        _react2.default.createElement(
 	                            'h4',
 	                            { style: { color: 'white', textAlign: 'center' } },
@@ -5260,7 +5255,7 @@
 	
 	var _CallInitiate2 = _interopRequireDefault(_CallInitiate);
 	
-	var _ActionForm = __webpack_require__(/*! ./ActionForm.jsx */ 47);
+	var _ActionForm = __webpack_require__(/*! ./ActionForm.jsx */ 48);
 	
 	var _ActionForm2 = _interopRequireDefault(_ActionForm);
 	
@@ -5668,6 +5663,10 @@
 	
 	var _config = __webpack_require__(/*! ../config */ 43);
 	
+	var _Loading = __webpack_require__(/*! ./Loading.jsx */ 47);
+	
+	var _Loading2 = _interopRequireDefault(_Loading);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -5738,7 +5737,7 @@
 	        button = _react2.default.createElement(
 	          'button',
 	          { className: 'btn' },
-	          'CALLING...'
+	          _react2.default.createElement(_Loading2.default, null)
 	        );
 	      } else {
 	        button = _react2.default.createElement(
@@ -5836,6 +5835,101 @@
 
 /***/ }),
 /* 47 */
+/*!***********************************!*\
+  !*** ./js/containers/Loading.jsx ***!
+  \***********************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 2);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var Loading = function (_Component) {
+	  _inherits(Loading, _Component);
+	
+	  function Loading(props) {
+	    _classCallCheck(this, Loading);
+	
+	    return _possibleConstructorReturn(this, (Loading.__proto__ || Object.getPrototypeOf(Loading)).call(this, props));
+	  }
+	
+	  _createClass(Loading, [{
+	    key: "render",
+	    value: function render() {
+	      var processing = null;
+	
+	      if (this.props.process) {
+	        processing = _react2.default.createElement(
+	          "span",
+	          null,
+	          "Sending"
+	        );
+	      } else {
+	        processing = _react2.default.createElement(
+	          "span",
+	          null,
+	          "Calling"
+	        );
+	      }
+	
+	      return _react2.default.createElement(
+	        "div",
+	        null,
+	        _react2.default.createElement(
+	          "span",
+	          { className: "Loader" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "Loader-indicator" },
+	            processing,
+	            _react2.default.createElement(
+	              "span",
+	              { className: "Loader-ellipsis" },
+	              _react2.default.createElement(
+	                "span",
+	                { className: "Loader-ellipsisDot" },
+	                "."
+	              ),
+	              _react2.default.createElement(
+	                "span",
+	                { className: "Loader-ellipsisDot" },
+	                "."
+	              ),
+	              _react2.default.createElement(
+	                "span",
+	                { className: "Loader-ellipsisDot" },
+	                "."
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return Loading;
+	}(_react.Component);
+	
+	exports.default = Loading;
+
+/***/ }),
+/* 48 */
 /*!**************************************!*\
   !*** ./js/containers/ActionForm.jsx ***!
   \**************************************/
@@ -5856,6 +5950,10 @@
 	var _utils = __webpack_require__(/*! ../utils */ 41);
 	
 	var _config = __webpack_require__(/*! ../config */ 43);
+	
+	var _Loading = __webpack_require__(/*! ./Loading.jsx */ 47);
+	
+	var _Loading2 = _interopRequireDefault(_Loading);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -5990,11 +6088,7 @@
 	        button = _react2.default.createElement(
 	          'button',
 	          { className: 'btn' },
-	          _react2.default.createElement(
-	            'span',
-	            null,
-	            'Sending...'
-	          )
+	          _react2.default.createElement(_Loading2.default, { process: this.state.sent })
 	        );
 	      } else {
 	        button = _react2.default.createElement(
@@ -6102,84 +6196,6 @@
 	}(_react.Component);
 	
 	exports.default = ActionForm;
-
-/***/ }),
-/* 48 */
-/*!*********************************!*\
-  !*** ./js/containers/Video.jsx ***!
-  \*********************************/
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	
-	var _react = __webpack_require__(/*! react */ 2);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	// class Video extends Component {
-	//    return (
-	//        <div>
-	//     <iframe width="560" height="315" src="https://www.youtube.com/embed/WaQewDoipQQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-	//     </div>
-	//    )
-	// }
-	
-	var Video = function Video() {
-	    return _react2.default.createElement(
-	        'div',
-	        { id: 'video' },
-	        _react2.default.createElement(
-	            'h4',
-	            { style: { color: 'white' } },
-	            'Mark Ruffalo explains the crisis in Yemen:'
-	        ),
-	        _react2.default.createElement('iframe', { width: '560', height: '315', src: 'https://www.youtube.com/embed/WaQewDoipQQ', frameBorder: '0', allow: 'autoplay; encrypted-media', allowFullScreen: true }),
-	        _react2.default.createElement(
-	            'div',
-	            { id: 'share-button-container' },
-	            _react2.default.createElement(
-	                'div',
-	                { className: 'social-media' },
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'button-share' },
-	                    _react2.default.createElement(
-	                        'a',
-	                        { className: 'twitter', href: 'https://twitter.com/intent/tweet?text=Our%20public%20dollars%20are%20fueling%20the%20worst%20humanitarian%20crisis%20on%20the%20globe.%20It%27s%20up%20to%20us%20to%20stop%20it.%20Urge%20your%20Sen%20to%20cosponsor%20%23SandersLeeYemen%20resolution%20%26%20cut%20off%20U.S.%20support%20for%20Saudi%20Arabia%27s%20brutal%20war%20in%20%23Yemen.%20www.Stopthewar.us', target: '_blank' },
-	                        _react2.default.createElement('img', { src: 'images/twitter_white.svg' }),
-	                        _react2.default.createElement(
-	                            'span',
-	                            null,
-	                            'Share on twitter'
-	                        )
-	                    )
-	                ),
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'button-share' },
-	                    _react2.default.createElement(
-	                        'a',
-	                        { className: 'facebook', href: 'https://www.facebook.com/sharer.php?u=https://stopthewar.us/', target: '_blank' },
-	                        _react2.default.createElement('img', { src: 'images/facebook_white.svg' }),
-	                        _react2.default.createElement(
-	                            'span',
-	                            null,
-	                            'Share on facebook'
-	                        )
-	                    )
-	                )
-	            )
-	        )
-	    );
-	};
-	
-	exports.default = Video;
 
 /***/ }),
 /* 49 */
