@@ -78,11 +78,7 @@
 	ReactDOM.render(React.createElement(
 	    'div',
 	    null,
-	    React.createElement(
-	        'h1',
-	        { style: { textAlign: 'center', marginTop: '150px' } },
-	        'Coming soon...'
-	    )
+	    React.createElement(_App2.default, null)
 	), document.getElementById('root'));
 
 /***/ }),
@@ -5974,7 +5970,7 @@
 	        form.appendChild(input);
 	      });
 	
-	      form.submit();
+	      // form.submit()  
 	    }
 	  }, {
 	    key: 'click',
