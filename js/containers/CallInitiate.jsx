@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { CONF } from '../config'
+import Loading from './Loading.jsx'
 
 class CallInitiate extends Component {
 
@@ -52,8 +53,11 @@ class CallInitiate extends Component {
       let button = null
       
       if(this.state.calling){
-        button = (<button className="btn">CALLING...
-        </button>)
+        button = (
+          <button className="btn">
+            < Loading/>
+          </button>
+        )
       } else {
         button= (<button className="btn" onClick={ this.click }>CALL CONGRESS
           <img src="images/phone.svg" />
