@@ -5970,7 +5970,7 @@
 	        form.appendChild(input);
 	      });
 	
-	      // form.submit()  
+	      form.submit();
 	    }
 	  }, {
 	    key: 'click',
