@@ -20,8 +20,7 @@ import App from './containers/App.jsx'
 //only need to send up both components to app 
 ReactDOM.render((
      <div>
-       {/* <App/> */}
-       <h1 style={{textAlign: 'center', marginTop: '150px'}}>Coming soon...</h1>
+       <App/>
      </div>
      ),
      document.getElementById('root')
