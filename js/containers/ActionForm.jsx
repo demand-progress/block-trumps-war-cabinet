@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { getQueryVariables } from '../utils'
 import { CONF, URLS } from '../config'
+import Loading from './Loading.jsx'
 
 class ActionForm extends Component {
 
@@ -117,7 +118,7 @@ class ActionForm extends Component {
       if(this.state.sent){
         button = (
           <button className="btn">
-            <span>Sending...</span>
+            < Loading process={this.state.sent} />
           </button>
         )
       } else {
