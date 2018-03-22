@@ -4892,7 +4892,7 @@
 	                                "Built by:"
 	                            ),
 	                            " ",
-	                            _react2.default.createElement("img", { src: "images/demand-progress.png" }),
+	                            _react2.default.createElement("img", { src: "../images/demand-progress.png" }),
 	                            _react2.default.createElement(
 	                                "p",
 	                                { style: { marginBottom: "50px" } },
@@ -4900,134 +4900,13 @@
 	                                _react2.default.createElement("br", null),
 	                                "Participating organizations:"
 	                            ),
-	                            _react2.default.createElement(
-	                                "div",
-	                                { className: "logos", style: { display: "flex", flexFlow: "row wrap", justifyContent: "center", alignItems: "center", marginTop: "-50px", borderBottomColor: "white" } },
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "About Face", src: "images/About Face Logo.jpg" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Common Defense", src: "images/Common-Defense-logo_preview.png" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Daily Kos", src: "images/DailyKosLogo.png" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Demand Progress", src: "images/demand-progress.png" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Democracy for America", src: "images/DFA-Logo-bottom-white-400.png" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Friends Committee on National Legislation", src: "images/FCNL logo_preview.png" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Just Foreign Policy", src: "images/JFP logo-long_preview.jpeg" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "The Nation", src: "images/Nation.jpg" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Peace Action", src: "images/PeaceActionLogo_rgb_preview.png" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Progressive Congress Action Fund", src: "images/progressive_congress_fund.jpg" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Roots Action", src: "images/RootsAction.png" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Stand", src: "images/stand_rebrand_logo-transparent-bg_preview.png" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "United For Peace And Justice", src: "images/utpj.png" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Win Without War", src: "images/winwithoutwar.jpg" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Womens Action For New Directions", src: "images/WANDLogo.gif" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "World Beyond War", src: "images/World Beyond War 300x150_preview.jpeg" })
-	                                )
-	                            ),
+	                            _react2.default.createElement("div", { className: "logos", style: { display: "flex", flexFlow: "row wrap", justifyContent: "center", alignItems: "center", marginTop: "-50px", borderBottomColor: "white" } }),
 	                            _react2.default.createElement(
 	                                "p",
 	                                { style: { marginBottom: "50px" } },
 	                                "Endorsing organizations:"
 	                            ),
-	                            _react2.default.createElement(
-	                                "div",
-	                                { className: "logos", style: { display: "flex", flexFlow: "row wrap", justifyContent: "center", alignItems: "center", marginTop: "-50px", borderBottomColor: "white" } },
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Anti War", src: "images/Antiwarcom logo.png" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Code Pink", src: "images/CP_logo_preview(1).jpeg" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Credo", src: "images/CREDO-logo_preview.png" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Mpower Change", src: "images/FreedomForward logo.jpeg" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Mpower Change", src: "images/mpower_logo_preview.png" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Our Revolution", src: "images/OR-logo_preview.png" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "The Yemen Peace Project", src: "images/YPP-logo_preview.png" })
-	                                )
-	                            )
+	                            _react2.default.createElement("div", { className: "logos", style: { display: "flex", flexFlow: "row wrap", justifyContent: "center", alignItems: "center", marginTop: "-50px", borderBottomColor: "white" } })
 	                        ),
 	                        _react2.default.createElement("div", { className: "spacer" }),
 	                        _react2.default.createElement(
@@ -5073,7 +4952,7 @@
 	                                _react2.default.createElement(
 	                                    "a",
 	                                    { className: "twitter", href: "https://twitter.com/intent/tweet?text=Our%20public%20dollars%20are%20fueling%20the%20worst%20humanitarian%20crisis%20on%20the%20globe.%20It%27s%20up%20to%20us%20to%20stop%20it.%20Urge%20your%20Sen%20to%20cosponsor%20%23SandersLeeYemen%20resolution%20%26%20cut%20off%20U.S.%20support%20for%20Saudi%20Arabia%27s%20brutal%20war%20in%20%23Yemen.%20www.Stopthewar.us", target: "_blank" },
-	                                    _react2.default.createElement("img", { src: "images/twitter_white.svg" }),
+	                                    _react2.default.createElement("img", { src: "../images/twitter_white.svg" }),
 	                                    _react2.default.createElement(
 	                                        "span",
 	                                        null,
@@ -5083,7 +4962,7 @@
 	                                _react2.default.createElement(
 	                                    "a",
 	                                    { className: "facebook", href: "https://www.facebook.com/sharer.php?u=https://stopthewar.us/", target: "_blank" },
-	                                    _react2.default.createElement("img", { src: "images/facebook_white.svg" }),
+	                                    _react2.default.createElement("img", { src: "../images/facebook_white.svg" }),
 	                                    _react2.default.createElement(
 	                                        "span",
 	                                        null,
@@ -5170,48 +5049,50 @@
 	                            'More information:'
 	                        ),
 	                        _react2.default.createElement(
+	                            'div',
+	                            { 'class': 'flex-container' },
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'flex-item' },
+	                                _react2.default.createElement('img', { src: '../images/haspel.jpg', alt: 'Gina Haspel' }),
+	                                _react2.default.createElement(
+	                                    'p',
+	                                    null,
+	                                    'Gina Haspel, the CIA Director nominee, led torture programs in secret prisons abroad -- and then engaged in a cover up by ordering the destruction of tapes of the interrogations during which torture took place.  The European Center for Constitutional and Human Rights has called for Haspel\'s arrest for her role in the torture of detainees.',
+	                                    _react2.default.createElement('br', null),
+	                                    _react2.default.createElement('br', null)
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'flex-item' },
+	                                _react2.default.createElement('img', { src: '../images/pompeo.jpeg', alt: 'Mike Pompeo' }),
+	                                _react2.default.createElement(
+	                                    'p',
+	                                    null,
+	                                    'Trump has also nominated his current CIA head, Mike Pompeo, to become Secretary of State.  Pompeo has historically supported torture, chose torturer Haspel as his deputy at the CIA, and has said that all Muslims are \u201Cpotentially complicit\u201Din terrorism.',
+	                                    _react2.default.createElement('br', null),
+	                                    _react2.default.createElement('br', null)
+	                                )
+	                            )
+	                        ),
+	                        _react2.default.createElement(
 	                            'p',
-	                            { style: { textAlign: 'center' } },
-	                            _react2.default.createElement(
-	                                'b',
-	                                null,
-	                                'What\u2019s Going in Yemen?'
-	                            ),
+	                            null,
+	                            'We must not reward torturers, or those who support torture, with promotions to some of our nation\u2019s highest offices. We cannot be complicit in normalizing such behavior, and people with such warped moral compasses are unfit to serve -- especially under the command of Donald Trump, who has himself expressed support for torture and disdain for human rights norms.',
 	                            _react2.default.createElement('br', null),
-	                            _react2.default.createElement('br', null),
-	                            'Since March 2015, the U.S. has supported an Arab military coalition led by Saudi Arabia and the United Arab Emirates (UAE) in a civil war in Yemen. The war, that pits an armed Yemeni rebel group called the Houthis against the Yemeni government, has resulted in massive civilian casualties, and the largest humanitarian crisis in the world. It has killed more than 10,000 Yemenis and wounded more than 40,000, the majority of whom were civilians. The United Nations has stated that U.S.-supported airstrikes carried out by the Saudi-led coalition are the leading cause of civilian casualties. Meanwhile Amnesty International and Human Rights Watch have documented coalition airstrikes that have repeatedly targeted schools, hospitals, weddings, public markets, water and sanitation systems, and other vital civilian infrastructure \u2013 all probable war crimes carried out with U.S. support.',
-	                            _react2.default.createElement('br', null),
-	                            _react2.default.createElement('br', null),
-	                            'The coalition\u2019s destruction of such vital civilian infrastructure has created the conditions necessary for the world\u2019s largest humanitarian crisis \u2013 a crisis even larger than Syria according to the UN. The coalition has also used starvation as a weapon of war by blockading and interfering with the delivery of vital humanitarian and commercial assistance, which the majority of Yemeni civilians depend on for survival. Thanks to the war, more than 8 MILLION people are now on the brink of starvation and Yemen is home to the largest and fastest growing cholera crisis ever documented. Every 10 minutes, a Yemeni child under 5 dies from starvation or disease. It\u2019s time to end America\u2019s role in this suffering.',
-	                            _react2.default.createElement('br', null),
-	                            _react2.default.createElement('br', null),
-	                            _react2.default.createElement(
-	                                'b',
-	                                null,
-	                                'The United States\u2019 Role in Yemen\'s Civil War'
-	                            ),
-	                            _react2.default.createElement('br', null),
-	                            _react2.default.createElement('br', null),
-	                            'Congress has never authorized America\u2019s involvement in this war in Yemen, yet for almost three years the United States has literally fueled the conflict and its war crimes. Since the beginning of the intervention in March 2015, the United States has provided midair refueling to coalition jets, shared intelligence for targeting assistance, other logistical support, and sold U.S. bombs to the coalition. Throughout the war, Saudi Arabia and its allies have targeted civilians, hospitals, schools, and farms with American made bombs dropped by planes refueled by America. Meanwhile, the US has provided Saudi Arabia and its allies political cover while they deliberately use starvation and disease as weapons of war, putting 8 million Yemenis a step away from famine. None of this brutality would be possible without continued American support.',
-	                            _react2.default.createElement('br', null),
-	                            _react2.default.createElement('br', null),
-	                            _react2.default.createElement(
-	                                'b',
-	                                null,
-	                                'What does this bill do?'
-	                            ),
-	                            _react2.default.createElement('br', null),
-	                            _react2.default.createElement('br', null),
-	                            'America\u2019s unconstitutional war in Yemen has never been authorized by Congress. That\u2019s why Senators Bernie Sanders (I-VT) and Mike Lee (R-UT) introduced a resolution, which would end U.S. military involvement in the Saudi-led coalition\u2019s war in Yemen. The resolution would end U.S. refueling of and intelligence-sharing to coalition warplanes conducting aerial bombings in Yemen. It invokes the War Powers Resolution of 1973 that was passed in the wake of Vietnam to empower Congress as the sole body that can declare war. Under the War Powers Resolution, this important legislation is guaranteed a vote, which means that the Senate will finally debate and vote on this completely unauthorized war soon. This legislation is our best chance to end America\u2019s role in this unconstitutional war and push for peace, which is the only significant way to relieve the suffering of the Yemeni people.',
-	                            _react2.default.createElement('br', null),
-	                            _react2.default.createElement('br', null),
+	                            _react2.default.createElement('br', null)
+	                        ),
+	                        _react2.default.createElement(
+	                            'p',
+	                            null,
 	                            _react2.default.createElement(
 	                                'strong',
 	                                null,
 	                                _react2.default.createElement(
 	                                    'a',
 	                                    { className: 'back-to-form-link', href: '#signThePetition' },
-	                                    'Our public dollars should not be funding Saudi and UAE war crimes in Yemen. Will you sign our petition and call your senators today to urge them to support the Sanders-Lee resolution?'
+	                                    'Please click to send an email demanding that your Senators to oppose Haspel\u2019s CIA Director confirmation and Pompeo\u2019s confirmation as Secretary of State. '
 	                                )
 	                            )
 	                        )
@@ -5548,11 +5429,11 @@
 	    value: true
 	});
 	var CONF = {
-	    actionKitPageShortName: 'stop-fueling-war-yemen',
+	    actionKitPageShortName: 'vote-against-torture',
 	    actionKitPageId: 2172,
-	    prettyCampaignName: 'Stop Fueling War in Yemen',
-	    callCampaign: 'stop-fueling-war-yemen',
-	    callPowerId: 16
+	    prettyCampaignName: 'Vote Against Torture',
+	    callCampaign: 'vote-against-torture',
+	    callPowerId: 19
 	};
 	var URLS = {
 	    actionKit: 'https://act.demandprogress.org/act/',
@@ -5744,7 +5625,7 @@
 	          'button',
 	          { className: 'btn', onClick: this.click },
 	          'CALL CONGRESS',
-	          _react2.default.createElement('img', { src: 'images/phone.svg' })
+	          _react2.default.createElement('img', { src: '../images/phone.svg' })
 	        );
 	      }
 	
@@ -5778,7 +5659,7 @@
 	          _react2.default.createElement(
 	            'strong',
 	            { style: { fontSize: "25px" } },
-	            'Make a call to support the War Powers Resolution to end US support for the Saudi-led war in Yemen.'
+	            'Make a call to block Haspel\u2019s nomination for CIA Director and Pompeo\u2019s nomination for Secretary of State!'
 	          ),
 	          _react2.default.createElement('br', null),
 	          _react2.default.createElement('br', null)
@@ -6108,7 +5989,7 @@
 	        _react2.default.createElement(
 	          'h3',
 	          null,
-	          'Tell Congress: Stop Fueling War in Yemen'
+	          'Vote Against Torture'
 	        ),
 	        _react2.default.createElement('br', null),
 	        _react2.default.createElement('br', null),
@@ -6118,14 +5999,14 @@
 	          _react2.default.createElement(
 	            'strong',
 	            { style: { fontSize: "25px" } },
-	            'Yemen is facing a massive humanitarian catastrophe and we need your help to stop it. American aid is crucial to the Saudi war effort, and removing our assistance would limit Saudi attacks and maybe even push them to the negotiating table.'
+	            'Trump\u2019s parade of horribles marches on, as he has chosen two more cabinet nominees whose disdain for human rights mean they must be rejected by the Senate.'
 	          ),
 	          _react2.default.createElement('br', null),
 	          _react2.default.createElement('br', null),
 	          _react2.default.createElement(
 	            'div',
 	            null,
-	            'Email your lawmakers now and tell them to support the War Powers Resolution S.J.Res. 54 to end US support for the Saudi-led war in Yemen.'
+	            'So sign to email your Senators now: Block Haspel\u2019s nomination for CIA Director and Pompeo\u2019s nomination for Secretary of State! '
 	          ),
 	          _react2.default.createElement('br', null),
 	          _react2.default.createElement('br', null),
@@ -6175,7 +6056,7 @@
 	          _react2.default.createElement(
 	            'h4',
 	            null,
-	            'Here\'s the language that will be sent to Congress:'
+	            'Here\'s the language that will be sent to Senate:'
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -6184,7 +6065,7 @@
 	          _react2.default.createElement(
 	            'i',
 	            null,
-	            'As your constituent, I urge you to take action to end American complicity in the Saudi-led war in Yemen. We cannot sit by while our government increases suffering in a country devastated by conflict, cholera, and famine. I strongly urge you to co-sponsor and support the bipartisan War Powers Resolution S.J.Res. 54 sponsored by Sens. Bernie Sanders (D-VT) and Mike Lee (R-UT). The privileged resolution would end U.S. military involvement in the Saudi-led war in Yemen.'
+	            '\u201CWe must not reward torturers or those who support torture with promotions to some of our nation\u2019s highest offices. We cannot be complicit in normalizing such behavior, and people with such warped moral compasses are unfit to serve -- especially under the command of Donald Trump, who has himself expressed support for torture and disdain for human rights norms. We urge you to oppose \u201CBloody\u201D Gina Haspel for CIA head, and Mike Pompeo for Secretary of State.\u201D'
 	          )
 	        ),
 	        _react2.default.createElement('hr', null)
