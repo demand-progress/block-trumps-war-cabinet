@@ -1825,6 +1825,39 @@ template {
     animation-name: Loader-ellipsisDot3;
   }
 
+/* more information image container */
+
+  .flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 320px;
+    max-width: 1220px;
+ }
+
+ .flex-item {
+    display:flex;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    margin: 3px;
+    padding: 10px 0 0 10px;
+ }
+
+.flex-item img{
+    height: 200px;
+    width: auto; 
+    flex-grow:0;
+    flex-shrink:0;
+}
+ .flex-item p {
+     padding-left: 15px;
+ }
+
 @media screen and (max-width: 600px) {
     .bftn-homepage #leaderboard .leaderboard-day {
         width: 100%;
@@ -2170,7 +2203,7 @@ template {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
     .bftn-homepage #footer .built-by {
         width: auto;
     }
@@ -2188,6 +2221,11 @@ template {
        margin-bottom: 10px;
        width: 100%
     }
+
+    .flex-item{
+        -webkit-flex-direction: column;
+        flex-direction: column;
+     }
 }
 
 .bftn-homepage .no-scroll {
