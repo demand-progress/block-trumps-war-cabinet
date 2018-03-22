@@ -131,14 +131,14 @@ class ActionForm extends Component {
       
       return(
         <div className="bftn-form call-action-form">
-            <h3>Tell Congress: Stop Fueling War in Yemen</h3>
+            <h3>Vote Against Torture</h3>
             <br/><br/>
             <div style={{color: 'white', lineHeight: 1.5}}>
               <strong style={{ fontSize: "25px" }}>
-                Yemen is facing a massive humanitarian catastrophe and we need your help to stop it. American aid is crucial to the Saudi war effort, and removing our assistance would limit Saudi attacks and maybe even push them to the negotiating table.  
+                Trump’s parade of horribles marches on, as he has chosen two more cabinet nominees whose disdain for human rights mean they must be rejected by the Senate.  
               </strong>
                 <br/><br/>
-                <div>Email your lawmakers now and tell them to support the War Powers Resolution S.J.Res. 54 to end US support for the Saudi-led war in Yemen.</div>
+                <div>So sign to email your Senators now: Block Haspel’s nomination for CIA Director and Pompeo’s nomination for Secretary of State! </div>
                 <br/><br/>
                 <div>Add your name to send a message (below) to Congress:</div>
             </div>
@@ -159,11 +159,11 @@ class ActionForm extends Component {
            </div>
               <span><i>One or more of the participating organizations (listed at bottom) may email you about their campaigns.</i></span>
           <p style={{color: 'white', textAlign: 'center'}}>
-              <h4>Here's the language that will be sent to Congress:</h4>
+              <h4>Here's the language that will be sent to Senate:</h4>
           </p>
           <p style={{color: 'white', textAlign: 'center'}}>
             <i>
-              As your constituent, I urge you to take action to end American complicity in the Saudi-led war in Yemen. We cannot sit by while our government increases suffering in a country devastated by conflict, cholera, and famine. I strongly urge you to co-sponsor and support the bipartisan War Powers Resolution S.J.Res. 54 sponsored by Sens. Bernie Sanders (D-VT) and Mike Lee (R-UT). The privileged resolution would end U.S. military involvement in the Saudi-led war in Yemen.
+              “We must not reward torturers or those who support torture with promotions to some of our nation’s highest offices. We cannot be complicit in normalizing such behavior, and people with such warped moral compasses are unfit to serve -- especially under the command of Donald Trump, who has himself expressed support for torture and disdain for human rights norms. We urge you to oppose “Bloody” Gina Haspel for CIA head, and Mike Pompeo for Secretary of State.”
             </i>
           </p>
           <hr/>

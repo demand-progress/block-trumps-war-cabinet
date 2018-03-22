@@ -60,7 +60,7 @@ class CallInitiate extends Component {
         )
       } else {
         button= (<button className="btn" onClick={ this.click }>CALL CONGRESS
-          <img src="images/phone.svg" />
+          <img src="../images/phone.svg" />
         </button>)
       }
 
@@ -78,7 +78,7 @@ class CallInitiate extends Component {
             <br/><br/>
             <div style={{color: 'white', lineHeight: 1.5}}>
               <strong style={{ fontSize: "25px" }}>
-                Make a call to support the War Powers Resolution to end US support for the Saudi-led war in Yemen.
+                Make a call to block Haspel’s nomination for CIA Director and Pompeo’s nomination for Secretary of State!
               </strong>
               <br/><br/>
             </div>
