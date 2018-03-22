@@ -1,8 +1,8 @@
 const CONF = {
-    actionKitPageShortName: 'stop-fueling-war-yemen',
+    actionKitPageShortName: 'vote-against-torture',
     actionKitPageId: 2172,
-    prettyCampaignName: 'Stop Fueling War in Yemen',
-    callCampaign: 'stop-fueling-war-yemen',
+    prettyCampaignName: 'Vote Against Torture',
+    callCampaign: 'vote-against-torture',
     callPowerId: 19
 };
 const URLS = {
