@@ -17,7 +17,7 @@ class Main extends Component {
                     <h4 style={{color: 'white', textAlign: 'center'}}>More information:</h4>
                     <div class="flex-container">
                         <div className="flex-item">
-                            <img src="../images/haspel.jpg" alt="Gina Haspel"/>
+                            <img src="../images/haspel.png" alt="Gina Haspel"/>
                             <p>
                                 Gina Haspel, the CIA Director nominee, led torture programs in secret prisons abroad -- and then engaged in a cover up by ordering the destruction of tapes of the interrogations during which torture took place.  The European Center for Constitutional and Human Rights has called for Haspel's arrest for her role in the torture of detainees. 
                                 <br/><br/>   
