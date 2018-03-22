@@ -295,7 +295,7 @@ template {
 }
 
 .bftn-homepage .unit hr {
-    margin: 60px 0;
+    margin: 60px 0 -5px 0;
     border: 1px solid #2a284a;
 }
 
@@ -1755,15 +1755,6 @@ template {
 
 .bftn-homepage #leaderboard .leaderboard-top.open .leaderboard-open {
     opacity: 0;
-}
-
-#video {
-    width: 100%;
-    height: auto;
-    display:flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center; 
 }
 
 /* loading button css */
