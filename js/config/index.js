@@ -1,6 +1,6 @@
 const CONF = {
     actionKitPageShortName: 'vote-against-torture',
-    actionKitPageId: 2172,
+    actionKitPageId: 2266,
     prettyCampaignName: 'Vote Against Torture',
     callCampaign: 'vote-against-torture',
     callPowerId: 19

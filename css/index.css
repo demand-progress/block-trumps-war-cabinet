@@ -1849,8 +1849,8 @@ template {
  }
 
 .flex-item img{
-    height: 200px;
-    width: auto; 
+    height: auto;
+    width: 300px; 
     flex-grow:0;
     flex-shrink:0;
 }

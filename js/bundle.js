@@ -5054,7 +5054,7 @@
 	                            _react2.default.createElement(
 	                                'div',
 	                                { className: 'flex-item' },
-	                                _react2.default.createElement('img', { src: '../images/haspel.jpg', alt: 'Gina Haspel' }),
+	                                _react2.default.createElement('img', { src: '../images/haspel.png', alt: 'Gina Haspel' }),
 	                                _react2.default.createElement(
 	                                    'p',
 	                                    null,
@@ -5430,7 +5430,7 @@
 	});
 	var CONF = {
 	    actionKitPageShortName: 'vote-against-torture',
-	    actionKitPageId: 2172,
+	    actionKitPageId: 2266,
 	    prettyCampaignName: 'Vote Against Torture',
 	    callCampaign: 'vote-against-torture',
 	    callPowerId: 19
