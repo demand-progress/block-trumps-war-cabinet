@@ -17,6 +17,13 @@ class Main extends Component {
                     <h4 style={{color: 'white', textAlign: 'center'}}>More information:</h4>
                     <div class="flex-container">
                         <div className="flex-item">
+                            <img src="../images/johnbolton.jpeg" alt="John Bolton"/>
+                            <p>
+                                John Bolton was was an architect of the war in Iraq -- and wishes that it had never ended, having asserted “Iraq today suffers not from the 2003 invasion, but from the 2011 withdrawal of all US combat forces.”  He has argued a preemptive strike on Iran, and thinks that a preemptive attack on North Korea would be justified.  His appointment does not require Senate approval -- but if we can prevent the confirmations Haspel and Pompeo then Bolton will be less powerful. 
+                                <br/><br/>   
+                            </p>
+                        </div>
+                        <div className="flex-item">
                             <img src="../images/haspel.png" alt="Gina Haspel"/>
                             <p>
                                 Gina Haspel, the CIA Director nominee, led torture programs in secret prisons abroad -- and then engaged in a cover up by ordering the destruction of tapes of the interrogations during which torture took place.  The European Center for Constitutional and Human Rights has called for Haspel's arrest for her role in the torture of detainees. 
@@ -32,7 +39,7 @@ class Main extends Component {
                         </div>       
                     </div>
                     <p>
-                        We must not reward torturers, or those who support torture, with promotions to some of our nation’s highest offices. We cannot be complicit in normalizing such behavior, and people with such warped moral compasses are unfit to serve -- especially under the command of Donald Trump, who has himself expressed support for torture and disdain for human rights norms.
+                        We need to block Trump's War Cabinet of Bolton, Haspel, and Pompeo.  Torturers and warmongers must not be rewarded with our nation's highest offices -- and confirming these appointments will vastly increase the likelihood of war with Iran and North Korea, indefinite war in Yemen, torture, and other atrocities.
                         <br/><br/>
                     </p>
                     <p>
