@@ -5054,6 +5054,18 @@
 	                            _react2.default.createElement(
 	                                'div',
 	                                { className: 'flex-item' },
+	                                _react2.default.createElement('img', { src: '../images/johnbolton.jpeg', alt: 'John Bolton' }),
+	                                _react2.default.createElement(
+	                                    'p',
+	                                    null,
+	                                    'John Bolton was was an architect of the war in Iraq -- and wishes that it had never ended, having asserted \u201CIraq today suffers not from the 2003 invasion, but from the 2011 withdrawal of all US combat forces.\u201D  He has argued a preemptive strike on Iran, and thinks that a preemptive attack on North Korea would be justified.  His appointment does not require Senate approval -- but if we can prevent the confirmations Haspel and Pompeo then Bolton will be less powerful.',
+	                                    _react2.default.createElement('br', null),
+	                                    _react2.default.createElement('br', null)
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'flex-item' },
 	                                _react2.default.createElement('img', { src: '../images/haspel.png', alt: 'Gina Haspel' }),
 	                                _react2.default.createElement(
 	                                    'p',
@@ -5079,7 +5091,7 @@
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'We must not reward torturers, or those who support torture, with promotions to some of our nation\u2019s highest offices. We cannot be complicit in normalizing such behavior, and people with such warped moral compasses are unfit to serve -- especially under the command of Donald Trump, who has himself expressed support for torture and disdain for human rights norms.',
+	                            'We need to block Trump\'s War Cabinet of Bolton, Haspel, and Pompeo.  Torturers and warmongers must not be rewarded with our nation\'s highest offices -- and confirming these appointments will vastly increase the likelihood of war with Iran and North Korea, indefinite war in Yemen, torture, and other atrocities.',
 	                            _react2.default.createElement('br', null),
 	                            _react2.default.createElement('br', null)
 	                        ),
@@ -5989,7 +6001,7 @@
 	        _react2.default.createElement(
 	          'h3',
 	          null,
-	          'Vote Against Torture'
+	          'Block Trump\'s War Cabinet'
 	        ),
 	        _react2.default.createElement('br', null),
 	        _react2.default.createElement('br', null),
@@ -5999,14 +6011,14 @@
 	          _react2.default.createElement(
 	            'strong',
 	            { style: { fontSize: "25px" } },
-	            'Trump\u2019s parade of horribles marches on, as he has chosen two more cabinet nominees whose disdain for human rights mean they must be rejected by the Senate.'
+	            'Trump\'s new appointments risk putting us on paths to war with Iran and North Korea.  They support -- and have overseen -- torture, and will continue our support for the Saudi war in Yemen.  The Senate must reject them.'
 	          ),
 	          _react2.default.createElement('br', null),
 	          _react2.default.createElement('br', null),
 	          _react2.default.createElement(
 	            'div',
 	            null,
-	            'So sign to email your Senators now: Block Haspel\u2019s nomination for CIA Director and Pompeo\u2019s nomination for Secretary of State! '
+	            'So sign to email your Senators now: Block Trump\'s War Cabinet!  Oppose Gina Haspel\u2019s nomination for CIA Director and Mike Pompeo\u2019s nomination for Secretary of State!'
 	          ),
 	          _react2.default.createElement('br', null),
 	          _react2.default.createElement('br', null),
@@ -6065,7 +6077,7 @@
 	          _react2.default.createElement(
 	            'i',
 	            null,
-	            '\u201CWe must not reward torturers or those who support torture with promotions to some of our nation\u2019s highest offices. We cannot be complicit in normalizing such behavior, and people with such warped moral compasses are unfit to serve -- especially under the command of Donald Trump, who has himself expressed support for torture and disdain for human rights norms. We urge you to oppose \u201CBloody\u201D Gina Haspel for CIA head, and Mike Pompeo for Secretary of State.\u201D'
+	            '"The appointment of John Bolton as National Security Advisor and the nominations of Gina Haspel for Director of the Central Intelligence Agency (CIA) and Mike Pompeo for Secretary of State represent an aggressive shift in posture and could well put us on a path to more war.  Moreover, their histories of support for, and involvement in, torture are disqualifying in their own rights. Please oppose the nominations of Haspel and Pompeo and otherwise do everything in your power to prevent the advancement of these two dangerous nominees."'
 	          )
 	        ),
 	        _react2.default.createElement('hr', null)
