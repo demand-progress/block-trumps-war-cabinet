@@ -131,14 +131,16 @@ class ActionForm extends Component {
       
       return(
         <div className="bftn-form call-action-form">
-            <h3>Vote Against Torture</h3>
+            <h3>Block Trump's War Cabinet</h3>
             <br/><br/>
             <div style={{color: 'white', lineHeight: 1.5}}>
               <strong style={{ fontSize: "25px" }}>
-                Trump’s parade of horribles marches on, as he has chosen two more cabinet nominees whose disdain for human rights mean they must be rejected by the Senate.  
+              Trump's new appointments risk putting us on paths to war with Iran and North Korea.  They support -- and have overseen -- torture, and will continue our support for the Saudi war in Yemen.  The Senate must reject them. 
               </strong>
                 <br/><br/>
-                <div>So sign to email your Senators now: Block Haspel’s nomination for CIA Director and Pompeo’s nomination for Secretary of State! </div>
+                <div>
+                  So sign to email your Senators now: Block Trump's War Cabinet!  Oppose Gina Haspel’s nomination for CIA Director and Mike Pompeo’s nomination for Secretary of State!
+                </div>
                 <br/><br/>
                 <div>Add your name to send a message (below) to Congress:</div>
             </div>
@@ -163,7 +165,7 @@ class ActionForm extends Component {
           </p>
           <p style={{color: 'white', textAlign: 'center'}}>
             <i>
-              “We must not reward torturers or those who support torture with promotions to some of our nation’s highest offices. We cannot be complicit in normalizing such behavior, and people with such warped moral compasses are unfit to serve -- especially under the command of Donald Trump, who has himself expressed support for torture and disdain for human rights norms. We urge you to oppose “Bloody” Gina Haspel for CIA head, and Mike Pompeo for Secretary of State.”
+            "The appointment of John Bolton as National Security Advisor and the nominations of Gina Haspel for Director of the Central Intelligence Agency (CIA) and Mike Pompeo for Secretary of State represent an aggressive shift in posture and could well put us on a path to more war.  Moreover, their histories of support for, and involvement in, torture are disqualifying in their own rights. Please oppose the nominations of Haspel and Pompeo and otherwise do everything in your power to prevent the advancement of these two dangerous nominees."
             </i>
           </p>
           <hr/>
