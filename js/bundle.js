@@ -5278,8 +5278,8 @@
 	    }
 	  }, {
 	    key: 'callMade',
-	    value: function callMade(evt) {
-	      evt.preventDefault();
+	    value: function callMade() {
+	      // evt.preventDefault();
 	      setTimeout(function () {
 	        this.setState({
 	          submitted: false,
@@ -5291,8 +5291,8 @@
 	    }
 	  }, {
 	    key: 'formSubmitted',
-	    value: function formSubmitted(evt) {
-	      evt.preventDefault();
+	    value: function formSubmitted() {
+	      // evt.preventDefault();
 	      setTimeout(function () {
 	        this.setState({
 	          submitted: true
@@ -5945,8 +5945,8 @@
 	    }
 	  }, {
 	    key: 'onSubmit',
-	    value: function onSubmit(e) {
-	      e.preventDefault();
+	    value: function onSubmit(evt) {
+	      evt.preventDefault();
 	
 	      var name = document.getElementById('name');
 	      var email = document.getElementById('email');
@@ -6002,11 +6002,11 @@
 	        'source': this.state.source || 'website'
 	      };
 	
-	      this.sendFormToActionKit(e, fields);
+	      this.sendFormToActionKit(fields);
 	    }
 	  }, {
 	    key: 'sendFormToActionKit',
-	    value: function sendFormToActionKit(e, fields) {
+	    value: function sendFormToActionKit(fields) {
 	      // iFrame
 	      var iframe = document.createElement('iframe');
 	      iframe.style.display = 'none';
@@ -6030,9 +6030,10 @@
 	      });
 	
 	      form.submit();
+	
 	      this.setState({
 	        sent: true
-	      }, this.props.formSubmitted(e));
+	      }, this.props.formSubmitted);
 	    }
 	  }, {
 	    key: 'render',
