@@ -12,7 +12,6 @@ class Form extends Component {
         this.state = getQueryVariables();
         this.state.submitted = false;
         this.state.callMade = false; 
-        this.state.emailAction = false; 
         
         this.callMade = this.callMade.bind(this);
         this.formSubmitted = this.formSubmitted.bind(this);
@@ -61,7 +60,7 @@ class Form extends Component {
           )    
         } else if(this.state.emailAction || this.state.submitted) {
           form = (
-            < CallInitiate callMade={ this.callMade } callActionEmailForm= {this.state.emailAction} />
+            < CallInitiate callMade={ this.callMade } />
           )
         } else {
           form = (
