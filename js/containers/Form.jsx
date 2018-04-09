@@ -27,8 +27,8 @@ class Form extends Component {
       window.scrollTo(0, 0)
     }
     
-    callMade(evt) {
-      evt.preventDefault();
+    callMade() {
+      // evt.preventDefault();
       setTimeout(function() { 
         this.setState({
             submitted: false,
@@ -39,8 +39,8 @@ class Form extends Component {
         }.bind(this), 5000)  
     }
     
-    formSubmitted(evt) {
-      evt.preventDefault();
+    formSubmitted() {
+      // evt.preventDefault();
       setTimeout(function() { 
         this.setState({
           submitted: true
