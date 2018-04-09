@@ -5111,7 +5111,7 @@
 	                                    _react2.default.createElement(
 	                                        'p',
 	                                        { className: 'imageHeaders' },
-	                                        'Secretary of State: Mike Pompeo'
+	                                        'Secretary of State, Mike Pompeo:'
 	                                    ),
 	                                    _react2.default.createElement('img', { src: '../images/pompeo.jpeg', alt: 'Mike Pompeo' })
 	                                ),
@@ -5138,7 +5138,7 @@
 	                                    _react2.default.createElement(
 	                                        'p',
 	                                        { className: 'imageHeaders' },
-	                                        'CIA Director: Gina Haspel'
+	                                        'CIA Director, Gina Haspel:'
 	                                    ),
 	                                    _react2.default.createElement('img', { src: '../images/haspel.png', alt: 'Gina Haspel' })
 	                                ),
@@ -5159,7 +5159,7 @@
 	                                    _react2.default.createElement(
 	                                        'p',
 	                                        { className: 'imageHeaders' },
-	                                        'National Security Advisor: John Bolton'
+	                                        'National Security Advisor, John Bolton:'
 	                                    ),
 	                                    _react2.default.createElement('img', { src: '../images/johnbolton.jpeg', alt: 'John Bolton' })
 	                                ),

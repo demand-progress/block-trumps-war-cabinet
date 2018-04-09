@@ -18,7 +18,7 @@ class Main extends Component {
                     <div class="flex-container">
                         <div className="flex-item">
                             <div className="imageSection">
-                                <p className="imageHeaders">Secretary of State: Mike Pompeo</p>
+                                <p className="imageHeaders">Secretary of State, Mike Pompeo:</p>
                                 <img src="../images/pompeo.jpeg" alt="Mike Pompeo"/>
                             </div>
                             <p>
@@ -32,7 +32,7 @@ class Main extends Component {
                         </div>
                         <div className="flex-item">
                              <div className="imageSection">
-                                <p className="imageHeaders">CIA Director: Gina Haspel</p>
+                                <p className="imageHeaders">CIA Director, Gina Haspel:</p>
                                 <img src="../images/haspel.png" alt="Gina Haspel"/>
                             </div>
                             <p>
@@ -42,7 +42,7 @@ class Main extends Component {
                         </div>
                         <div className="flex-item">
                             <div className="imageSection">
-                                <p className="imageHeaders">National Security Advisor: John Bolton</p>
+                                <p className="imageHeaders">National Security Advisor, John Bolton:</p>
                                 <img src="../images/johnbolton.jpeg" alt="John Bolton"/>
                             </div>
                             <p>
