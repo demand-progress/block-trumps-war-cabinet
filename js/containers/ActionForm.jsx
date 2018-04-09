@@ -13,7 +13,13 @@ class ActionForm extends Component {
         this.onSubmit = this.onSubmit.bind(this)
         this.click = this.click.bind(this)
     }
-    
+
+    componentWillMount () {
+      this.setState({
+        sent: window.location.href.indexOf('email=call') !== -1
+      })
+    }    
+
     onSubmit(evt) {
       evt.preventDefault();
       
