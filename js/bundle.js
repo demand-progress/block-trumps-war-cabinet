@@ -4789,17 +4789,17 @@
 	                                _react2.default.createElement(
 	                                    "a",
 	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Watchdog.net", src: "images/logo-360px.png" })
+	                                    _react2.default.createElement("img", { alt: "Watchdog.net", src: "/images/logo-360px.png" })
 	                                ),
 	                                _react2.default.createElement(
 	                                    "a",
 	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Common Defense", src: "images/Common-Defense-logo_preview.png" })
+	                                    _react2.default.createElement("img", { alt: "Common Defense", src: "/images/Common-Defense-logo_preview.png" })
 	                                ),
 	                                _react2.default.createElement(
 	                                    "a",
 	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Progressive Congress Action Fund", src: "images/progressive_congress_fund.jpg" })
+	                                    _react2.default.createElement("img", { alt: "Progressive Congress Action Fund", src: "/images/progressive_congress_fund.jpg" })
 	                                )
 	                            ),
 	                            _react2.default.createElement(
@@ -4813,32 +4813,32 @@
 	                                _react2.default.createElement(
 	                                    "a",
 	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Daily Kos", src: "images/DailyKosLogo.png" })
+	                                    _react2.default.createElement("img", { alt: "Daily Kos", src: "/images/DailyKosLogo.png" })
 	                                ),
 	                                _react2.default.createElement(
 	                                    "a",
 	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Demand Progress", src: "images/demand-progress.png" })
+	                                    _react2.default.createElement("img", { alt: "Demand Progress", src: "/images/demand-progress.png" })
 	                                ),
 	                                _react2.default.createElement(
 	                                    "a",
 	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Peace Action", src: "images/PeaceActionLogo_rgb_preview.png" })
+	                                    _react2.default.createElement("img", { alt: "Peace Action", src: "/images/PeaceActionLogo_rgb_preview.png" })
 	                                ),
 	                                _react2.default.createElement(
 	                                    "a",
 	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Roots Action", src: "images/RootsAction.png" })
+	                                    _react2.default.createElement("img", { alt: "Roots Action", src: "/images/RootsAction.png" })
 	                                ),
 	                                _react2.default.createElement(
 	                                    "a",
 	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "The Nation", src: "images/Nation.jpg" })
+	                                    _react2.default.createElement("img", { alt: "The Nation", src: "/images/Nation.jpg" })
 	                                ),
 	                                _react2.default.createElement(
 	                                    "a",
 	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Win Without War", src: "images/winwithoutwar.jpg" })
+	                                    _react2.default.createElement("img", { alt: "Win Without War", src: "/images/winwithoutwar.jpg" })
 	                                )
 	                            )
 	                        ),
@@ -5903,7 +5903,7 @@
 	        'div',
 	        { className: 'bftn-form call-action-form' },
 	        _react2.default.createElement(
-	          'h5',
+	          'h4',
 	          null,
 	          'Sign to email the senate:'
 	        ),

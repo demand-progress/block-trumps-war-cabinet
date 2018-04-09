@@ -13,42 +13,42 @@ class Footer extends Component {
                           <div className="logos" style={{display: "flex", flexFlow: "row wrap", justifyContent: "center", alignItems: "center", marginTop: "-50px", borderBottomColor:"white"}}>
 
                               <a target="_blank">
-                                  <img alt="Watchdog.net" src="images/logo-360px.png" />
+                                  <img alt="Watchdog.net" src="/images/logo-360px.png" />
                               </a>
 
                               <a target="_blank">
-                                  <img alt="Common Defense" src="images/Common-Defense-logo_preview.png" />
+                                  <img alt="Common Defense" src="/images/Common-Defense-logo_preview.png" />
                               </a>
 
                               <a target="_blank">
-                                  <img alt="Progressive Congress Action Fund" src="images/progressive_congress_fund.jpg" />
+                                  <img alt="Progressive Congress Action Fund" src="/images/progressive_congress_fund.jpg" />
                               </a>
                             
                           </div>
                           <p style={{marginBottom: "50px"}}>Endorsing organizations:</p> 
                           <div className="logos" style={{display: "flex", flexFlow: "row wrap", justifyContent: "center", alignItems: "center", marginTop: "-50px", borderBottomColor:"white"}}>
                               <a target="_blank">
-                                  <img alt="Daily Kos" src="images/DailyKosLogo.png" />
+                                  <img alt="Daily Kos" src="/images/DailyKosLogo.png" />
                               </a>
 
                               <a target="_blank">
-                                  <img alt="Demand Progress" src="images/demand-progress.png" />
+                                  <img alt="Demand Progress" src="/images/demand-progress.png" />
                               </a>
 
                               <a target="_blank">
-                                  <img alt="Peace Action" src="images/PeaceActionLogo_rgb_preview.png" />
+                                  <img alt="Peace Action" src="/images/PeaceActionLogo_rgb_preview.png" />
                               </a>
 
                               <a target="_blank">
-                                  <img alt="Roots Action" src="images/RootsAction.png" />
+                                  <img alt="Roots Action" src="/images/RootsAction.png" />
                               </a>
 
                               <a target="_blank">
-                                  <img alt="The Nation" src="images/Nation.jpg" />
+                                  <img alt="The Nation" src="/images/Nation.jpg" />
                               </a>
 
                               <a target="_blank">
-                                  <img alt="Win Without War" src="images/winwithoutwar.jpg" />
+                                  <img alt="Win Without War" src="/images/winwithoutwar.jpg" />
                               </a>
                               {/*
                               <a target="_blank">
