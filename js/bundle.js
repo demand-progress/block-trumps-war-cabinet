@@ -5299,7 +5299,7 @@
 	        }, function () {
 	          window.scrollTo(0, 0);
 	        });
-	      }.bind(this), 5000);
+	      }.bind(this), 2000);
 	    }
 	  }, {
 	    key: 'render',
@@ -5667,7 +5667,6 @@
 	    };
 	
 	    _this.onPhoneFormSubmit = _this.onPhoneFormSubmit.bind(_this);
-	    _this.click = _this.click.bind(_this);
 	    return _this;
 	  }
 	
@@ -5934,7 +5933,6 @@
 	    _this.state.sent = false;
 	
 	    _this.onSubmit = _this.onSubmit.bind(_this);
-	    _this.click = _this.click.bind(_this);
 	    return _this;
 	  }
 	
@@ -5947,8 +5945,8 @@
 	    }
 	  }, {
 	    key: 'onSubmit',
-	    value: function onSubmit(evt) {
-	      evt.preventDefault();
+	    value: function onSubmit(e) {
+	      e.preventDefault();
 	
 	      var name = document.getElementById('name');
 	      var email = document.getElementById('email');
@@ -5964,7 +5962,6 @@
 	        return;
 	      }
 	
-	      // const email = form.email;
 	      if (!email.value.trim()) {
 	        email.focus();
 	        alert('Please enter your email.');
@@ -5975,14 +5972,12 @@
 	        return;
 	      }
 	
-	      // const address1 = form.street;
 	      if (!address1.value.trim()) {
 	        address1.focus();
 	        alert("Please enter your address.");
 	        return;
 	      }
 	
-	      // const zip = form.zip;
 	      if (!zip.value.trim()) {
 	        zip.focus();
 	        alert('Please enter your Zipcode.');
@@ -6007,11 +6002,11 @@
 	        'source': this.state.source || 'website'
 	      };
 	
-	      this.sendFormToActionKit(fields);
+	      this.sendFormToActionKit(e, fields);
 	    }
 	  }, {
 	    key: 'sendFormToActionKit',
-	    value: function sendFormToActionKit(fields) {
+	    value: function sendFormToActionKit(e, fields) {
 	      // iFrame
 	      var iframe = document.createElement('iframe');
 	      iframe.style.display = 'none';
@@ -6035,15 +6030,9 @@
 	      });
 	
 	      form.submit();
-	    }
-	  }, {
-	    key: 'click',
-	    value: function click(e) {
-	      this.onSubmit(e);
 	      this.setState({
 	        sent: true
-	      });
-	      this.props.formSubmitted(e);
+	      }, this.props.formSubmitted(e));
 	    }
 	  }, {
 	    key: 'render',
@@ -6059,7 +6048,7 @@
 	      } else {
 	        button = _react2.default.createElement(
 	          'button',
-	          { className: 'btn', onClick: this.click },
+	          { className: 'btn', onClick: this.onSubmit },
 	          _react2.default.createElement(
 	            'span',
 	            null,
