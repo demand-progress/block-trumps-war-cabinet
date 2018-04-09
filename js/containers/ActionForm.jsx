@@ -139,7 +139,7 @@ class ActionForm extends Component {
               </strong>
                 <br/><br/>
                 <div>
-                    So sign to email your Senators now: Block Trump's War Cabinet!  Oppose Gina Haspel's nomination for CIA Director and Mike Pompeo's nomination for Secretary of State.
+                  Email your senators now and tell them to block Trump's War Cabinet by opposing the nominations of Mike Pompeo and Gina Haspel
                 </div>
                 <br/><br/>
                 <div>Add your name to send a message (below) to Congress:</div>
