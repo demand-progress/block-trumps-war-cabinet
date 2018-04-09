@@ -131,15 +131,16 @@ class ActionForm extends Component {
       
       return(
         <div className="bftn-form call-action-form">
+            <h5>Sign to email the senate:</h5>
             <h3>Block Trump's War Cabinet</h3>
             <br/><br/>
             <div style={{color: 'white', lineHeight: 1.5}}>
               <strong style={{ fontSize: "25px" }}>
-              Trump's new appointments risk putting us on paths to war with Iran and North Korea.  They support -- and have overseen -- torture, and will continue our support for the Saudi war in Yemen.  The Senate must reject them. 
+                  Trump's new cabinet nominees risk putting us on paths to war with Iran and North Korea.  They've overseen and support torture, and will continue American support for the Saudi war in Yemen.  The Senate must reject them.
               </strong>
                 <br/><br/>
                 <div>
-                  So sign to email your Senators now: Block Trump's War Cabinet!  Oppose Gina Haspel’s nomination for CIA Director and Mike Pompeo’s nomination for Secretary of State!
+                    So sign to email your Senators now: Block Trump's War Cabinet!  Oppose Gina Haspel's nomination for CIA Director and Mike Pompeo's nomination for Secretary of State.
                 </div>
                 <br/><br/>
                 <div>Add your name to send a message (below) to Congress:</div>
@@ -165,7 +166,7 @@ class ActionForm extends Component {
           </p>
           <p style={{color: 'white', textAlign: 'center'}}>
             <i>
-            "The appointment of John Bolton as National Security Advisor and the nominations of Gina Haspel for Director of the Central Intelligence Agency (CIA) and Mike Pompeo for Secretary of State represent an aggressive shift in posture and could well put us on a path to more war.  Moreover, their histories of support for, and involvement in, torture are disqualifying in their own rights. Please oppose the nominations of Haspel and Pompeo and otherwise do everything in your power to prevent the advancement of these two dangerous nominees."
+                "Please oppose both Haspel's and Pompeo's nominations and otherwise do everything in your power to prevent the advancement of these two dangerous nominees. The appointment of John Bolton as National Security Advisor, along with the nominations of Gina Haspel for Director of the Central Intelligence Agency (CIA) and Mike Pompeo for Secretary of State, represent an aggressive shift in posture and could well put us on a path to more war. The State Department is supposed to play a key role in international climate negotiations, human rights, and preserving peace around the world. But Pompeo is deeply Islamophobic, a climate denier, and a warmonger. Moreover, their histories of support for, and involvement in, torture are disqualifying in their own right. "
             </i>
           </p>
           <hr/>

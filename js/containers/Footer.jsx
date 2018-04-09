@@ -11,76 +11,74 @@ class Footer extends Component {
                         <p><br/><br/>Built by:</p> <img src="../images/demand-progress.png" />
                         <p style={{marginBottom: "50px"}}><br/><br/>Participating organizations:</p>  
                           <div className="logos" style={{display: "flex", flexFlow: "row wrap", justifyContent: "center", alignItems: "center", marginTop: "-50px", borderBottomColor:"white"}}>
-            
-                             {/* <a target="_blank">
-                                  <img alt="About Face" src="images/About Face Logo.jpg" />
+
+                              <a target="_blank">
+                                  <img alt="Watchdog.net" src="images/logo-360px.png" />
                               </a>
 
                               <a target="_blank">
                                   <img alt="Common Defense" src="images/Common-Defense-logo_preview.png" />
                               </a>
-                            
-                              <a target="_blank">
-                                  <img alt="Daily Kos" src="images/DailyKosLogo.png" />
-                              </a>
-                              
-                              <a target="_blank">
-                                  <img alt="Demand Progress" src="images/demand-progress.png" />
-                              </a>
-                              
-                              <a target="_blank">
-                                  <img alt="Democracy for America" src="images/DFA-Logo-bottom-white-400.png" />
-                              </a>
-                              
-                              <a target="_blank">
-                                  <img alt="Friends Committee on National Legislation" src="images/FCNL logo_preview.png" />
-                              </a>
-                              
-                              <a target="_blank">
-                                  <img alt="Just Foreign Policy" src="images/JFP logo-long_preview.jpeg" />
-                              </a>
-                              
-                              <a target="_blank">
-                                  <img alt="The Nation" src="images/Nation.jpg" />
-                              </a>
-                              
-                              <a target="_blank">
-                                  <img alt="Peace Action" src="images/PeaceActionLogo_rgb_preview.png" />
-                              </a>
-                              
+
                               <a target="_blank">
                                   <img alt="Progressive Congress Action Fund" src="images/progressive_congress_fund.jpg" />
                               </a>
-                              
+                            
+                          </div>
+                          <p style={{marginBottom: "50px"}}>Endorsing organizations:</p> 
+                          <div className="logos" style={{display: "flex", flexFlow: "row wrap", justifyContent: "center", alignItems: "center", marginTop: "-50px", borderBottomColor:"white"}}>
+                              <a target="_blank">
+                                  <img alt="Daily Kos" src="images/DailyKosLogo.png" />
+                              </a>
+
+                              <a target="_blank">
+                                  <img alt="Demand Progress" src="images/demand-progress.png" />
+                              </a>
+
+                              <a target="_blank">
+                                  <img alt="Peace Action" src="images/PeaceActionLogo_rgb_preview.png" />
+                              </a>
+
                               <a target="_blank">
                                   <img alt="Roots Action" src="images/RootsAction.png" />
                               </a>
-                              
+
+                              <a target="_blank">
+                                  <img alt="The Nation" src="images/Nation.jpg" />
+                              </a>
+
+                              <a target="_blank">
+                                  <img alt="Win Without War" src="images/winwithoutwar.jpg" />
+                              </a>
+                              {/*
+                              <a target="_blank">
+                                  <img alt="Democracy for America" src="images/DFA-Logo-bottom-white-400.png" />
+                              </a>
+
+                              <a target="_blank">
+                                  <img alt="Friends Committee on National Legislation" src="images/FCNL logo_preview.png" />
+                              </a>
+
+                              <a target="_blank">
+                                  <img alt="Just Foreign Policy" src="images/JFP logo-long_preview.jpeg" />
+                              </a>
+
                               <a target="_blank">
                                   <img alt="Stand" src="images/stand_rebrand_logo-transparent-bg_preview.png" />
                               </a>
 
-                               <a target="_blank">
+                              <a target="_blank">
                                   <img alt="United For Peace And Justice" src="images/utpj.png" />
                               </a>
-                              
+
                               <a target="_blank">
-                                  <img alt="Win Without War" src="images/winwithoutwar.jpg" />
+                                  <img alt="Womens Action For New Directions" src="images/WANDLogo.gif" />
                               </a>
-                            
+
                               <a target="_blank">
-                                <img alt="Womens Action For New Directions" src="images/WANDLogo.gif" />
+                                  <img alt="World Beyond War" src="images/World Beyond War 300x150_preview.jpeg" />
                               </a>
-                              
-                              <a target="_blank">
-                                <img alt="World Beyond War" src="images/World Beyond War 300x150_preview.jpeg" />
-                              </a>
-                               */}
-                          </div>
-                          <p style={{marginBottom: "50px"}}>Endorsing organizations:</p> 
-                          <div className="logos" style={{display: "flex", flexFlow: "row wrap", justifyContent: "center", alignItems: "center", marginTop: "-50px", borderBottomColor:"white"}}>
-                             
-                             {/* <a target="_blank">
+                             <a target="_blank">
                                   <img alt="Anti War" src="images/Antiwarcom logo.png" />
                               </a>
 
