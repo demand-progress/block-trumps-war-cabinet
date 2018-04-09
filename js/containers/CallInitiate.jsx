@@ -78,7 +78,7 @@ class CallInitiate extends Component {
             <br/><br/>
             <div style={{color: 'white', lineHeight: 1.5}}>
               <strong style={{ fontSize: "25px" }}>
-                Make a call to block Haspel’s nomination for CIA Director and Pompeo’s nomination for Secretary of State!
+              Please make a call help block Trump's War Cabinet.
               </strong>
               <br/><br/>
             </div>
