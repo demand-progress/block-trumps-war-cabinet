@@ -131,7 +131,6 @@ class ActionForm extends Component {
       
       return(
         <div className="bftn-form call-action-form">
-            <h4>Sign to email the senate:</h4>
             <h3>Block Trump's War Cabinet</h3>
             <br/><br/>
             <div style={{color: 'white', lineHeight: 1.5}}>
