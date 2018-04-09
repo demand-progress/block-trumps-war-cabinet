@@ -13,7 +13,13 @@ class ActionForm extends Component {
         this.onSubmit = this.onSubmit.bind(this)
         this.click = this.click.bind(this)
     }
-    
+
+    componentWillMount () {
+      this.setState({
+        sent: window.location.href.indexOf('email=call') !== -1
+      })
+    }    
+
     onSubmit(evt) {
       evt.preventDefault();
       
@@ -131,8 +137,7 @@ class ActionForm extends Component {
       
       return(
         <div className="bftn-form call-action-form">
-            <h4>Sign to email the senate:</h4>
-            <h3>Block Trump's War Cabinet</h3>
+            <h3>Tell the Senate: Block Trump's War Cabinet</h3>
             <br/><br/>
             <div style={{color: 'white', lineHeight: 1.5}}>
               <strong style={{ fontSize: "25px" }}>
@@ -140,7 +145,7 @@ class ActionForm extends Component {
               </strong>
                 <br/><br/>
                 <div>
-                    So sign to email your Senators now: Block Trump's War Cabinet!  Oppose Gina Haspel's nomination for CIA Director and Mike Pompeo's nomination for Secretary of State.
+                  Email your senators now and tell them to block Trump's War Cabinet by opposing the nominations of Mike Pompeo and Gina Haspel
                 </div>
                 <br/><br/>
                 <div>Add your name to send a message (below) to Congress:</div>

@@ -1848,16 +1848,26 @@ template {
     padding: 15px 0 0 10px;
  }
 
-.flex-item img{
+.imageSection {
     height: auto;
     width: 300px; 
     flex-grow:0;
     flex-shrink:0;
 }
+
+.imageSection img {
+    width: 300px;
+    height: auto;
+}
  .flex-item p {
      padding-left: 15px;
      margin: 0; 
  }
+
+ p.imageHeaders {
+     padding: 0px 0px 15px 0px;
+ }
+
 
 @media screen and (max-width: 600px) {
     .bftn-homepage #leaderboard .leaderboard-day {
