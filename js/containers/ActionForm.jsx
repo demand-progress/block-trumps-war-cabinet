@@ -9,9 +9,8 @@ class ActionForm extends Component {
         super(props);
         this.state = getQueryVariables();
         this.state.sent = false;
-      
+  
         this.onSubmit = this.onSubmit.bind(this)
-        this.click = this.click.bind(this)
     }
 
     componentWillMount () {
@@ -20,8 +19,8 @@ class ActionForm extends Component {
       })
     }    
 
-    onSubmit(evt) {
-      evt.preventDefault();
+    onSubmit(e) {
+      e.preventDefault();
       
       const name = document.getElementById('name');   
       const email = document.getElementById('email');
@@ -37,8 +36,7 @@ class ActionForm extends Component {
         alert('Please enter your name.');
         return;
       }
-      
-      // const email = form.email;
+
       if (!email.value.trim()) {
         email.focus();
         alert('Please enter your email.');
@@ -49,14 +47,12 @@ class ActionForm extends Component {
         return;
       }
       
-      // const address1 = form.street;
       if (!address1.value.trim()) {
         address1.focus();
         alert("Please enter your address.");
         return;
       }
-      
-      // const zip = form.zip;
+
       if (!zip.value.trim()) {
         zip.focus();
         alert('Please enter your Zipcode.');
@@ -81,10 +77,10 @@ class ActionForm extends Component {
         'source': this.state.source || 'website'
       };
       
-       this.sendFormToActionKit(fields);
+       this.sendFormToActionKit(e, fields);
     }
     
-    sendFormToActionKit(fields) {
+    sendFormToActionKit(e, fields) {
       // iFrame
       const iframe = document.createElement('iframe');
       iframe.style.display = 'none';
@@ -108,14 +104,9 @@ class ActionForm extends Component {
       });
   
       form.submit()  
-    }
-    
-    click(e){
-      this.onSubmit(e)
       this.setState({
         sent: true
-      })
-      this.props.formSubmitted(e)
+      }, this.props.formSubmitted(e))   
     }
     
     render() {
@@ -129,7 +120,7 @@ class ActionForm extends Component {
         )
       } else {
         button = (
-          <button className="btn" onClick={ this.click } >
+          <button className="btn" onClick={ this.onSubmit } >
             <span>SIGN NOW</span>
           </button>
         )

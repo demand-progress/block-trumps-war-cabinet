@@ -12,7 +12,6 @@ class CallInitiate extends Component {
         }
         
         this.onPhoneFormSubmit = this.onPhoneFormSubmit.bind(this)
-        this.click = this.click.bind(this)
     }
     
     onPhoneFormSubmit(e) {
