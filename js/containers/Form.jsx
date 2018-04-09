@@ -47,7 +47,7 @@ class Form extends Component {
         }, function(){
           window.scrollTo( 0, 0);
         })
-        }.bind(this), 5000)
+        }.bind(this), 2000)
     }
     
     
