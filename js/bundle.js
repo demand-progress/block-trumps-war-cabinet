@@ -5697,15 +5697,9 @@
 	
 	      request.open('POST', url, true);
 	      request.send();
-	    }
-	  }, {
-	    key: 'click',
-	    value: function click(e) {
-	      this.onPhoneFormSubmit(e);
-	      this.props.callMade(e);
 	      this.setState({
 	        calling: true
-	      });
+	      }, this.props.callMade(e));
 	    }
 	  }, {
 	    key: 'render',
@@ -5721,7 +5715,7 @@
 	      } else {
 	        button = _react2.default.createElement(
 	          'button',
-	          { className: 'btn', onClick: this.click },
+	          { className: 'btn', onClick: this.onPhoneFormSubmit },
 	          'CALL CONGRESS',
 	          _react2.default.createElement('img', { src: '../images/phone.svg' })
 	        );

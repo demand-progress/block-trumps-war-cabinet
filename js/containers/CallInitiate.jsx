@@ -38,15 +38,10 @@ class CallInitiate extends Component {
         }
       
         request.open('POST', url, true);
-        request.send();  
-    }
-    
-    click(e){
-      this.onPhoneFormSubmit(e)
-      this.props.callMade(e)
-      this.setState({
-        calling: true
-      })
+        request.send(); 
+        this.setState({
+          calling: true
+        }, this.props.callMade(e))   
     }
     
     render() {
@@ -59,7 +54,7 @@ class CallInitiate extends Component {
           </button>
         )
       } else {
-        button= (<button className="btn" onClick={ this.click }>CALL CONGRESS
+        button= (<button className="btn" onClick={ this.onPhoneFormSubmit }>CALL CONGRESS
           <img src="../images/phone.svg" />
         </button>)
       }
