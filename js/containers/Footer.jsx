@@ -21,13 +21,14 @@ class Footer extends Component {
                                   <div className="logoText">Demand Progress</div>
                                   <div className="logoText">Democracy for America</div>
                                   <div className="logoText">Friends of the Earth</div>
+                                  <div className="logoText">Just Foreign Policy</div>
                                   <div className="logoText">Peace Action</div>
                                   <div className="logoText">People Demanding Action</div>
                                   <div className="logoText">People for the American Way</div>
                                   <div className="logoText">Progress America</div>
                                   <div className="logoText">Progressive Congress Action Fund</div>
                                   <div className="logoText">People for the American Way</div>
-                                  <div className="logoText">Roots Action</div>
+                                  <div className="logoText">RootsAction.org</div>
                                   <div className="logoText">The Nation</div>
                                   <div className="logoText">UltraViolet</div>
                                   <div className="logoText">Watchdog.net</div>

@@ -4832,6 +4832,11 @@
 	                                    _react2.default.createElement(
 	                                        "div",
 	                                        { className: "logoText" },
+	                                        "Just Foreign Policy"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "logoText" },
 	                                        "Peace Action"
 	                                    ),
 	                                    _react2.default.createElement(
@@ -4862,7 +4867,7 @@
 	                                    _react2.default.createElement(
 	                                        "div",
 	                                        { className: "logoText" },
-	                                        "Roots Action"
+	                                        "RootsAction.org"
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        "div",
