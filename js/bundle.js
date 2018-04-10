@@ -4916,7 +4916,71 @@
 	                                _react2.default.createElement(
 	                                    "a",
 	                                    { target: "_blank" },
+	                                    _react2.default.createElement("img", { alt: "Democracy for America", src: "/images/DFA-Logo-bottom-white-400.png" })
+	                                ),
+	                                _react2.default.createElement(
+	                                    "a",
+	                                    { target: "_blank" },
 	                                    _react2.default.createElement("img", { alt: "Progressive Congress Action Fund", src: "/images/progressive_congress_fund.jpg" })
+	                                ),
+	                                _react2.default.createElement(
+	                                    "div",
+	                                    { className: "logoText" },
+	                                    _react2.default.createElement(
+	                                        "p",
+	                                        null,
+	                                        "About Face"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "p",
+	                                        null,
+	                                        "American Family Voices"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "p",
+	                                        null,
+	                                        "The Center for Victims of Torture"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "p",
+	                                        null,
+	                                        "Demand Progress Action"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "p",
+	                                        null,
+	                                        "Friends of the Earth"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "p",
+	                                        null,
+	                                        "People Demanding Action"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "p",
+	                                        null,
+	                                        "People for the American Way"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "p",
+	                                        null,
+	                                        "Progress America"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "p",
+	                                        null,
+	                                        "People for the American Way"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "p",
+	                                        null,
+	                                        "UltraViolet"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "p",
+	                                        null,
+	                                        "Working Families Party"
+	                                    )
 	                                )
 	                            ),
 	                            _react2.default.createElement(

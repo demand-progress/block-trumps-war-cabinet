@@ -4,6 +4,18 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
+.logoText {
+    width: 200px;
+    height: auto;
+}
+
+.logoText p {
+    color: black;
+    font-size: 2em;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+}
+
 body {
     margin: 0;
 }
@@ -2019,6 +2031,7 @@ template {
     .bftn-homepage #footer .logos .fftf, .bftn-homepage #footer .logos .demandprogress, .bftn-homepage #footer .logos .freepress {
         margin: 0;
     }
+
 
     .bftn-homepage #footer .social-media {
         width: 100%;
