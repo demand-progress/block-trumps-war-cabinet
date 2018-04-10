@@ -4812,7 +4812,7 @@
 	                                    _react2.default.createElement(
 	                                        "div",
 	                                        { className: "logoText" },
-	                                        "Daily KOs"
+	                                        "Daily Kos"
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        "div",

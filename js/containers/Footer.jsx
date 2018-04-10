@@ -17,7 +17,7 @@ class Footer extends Component {
                                   <div className="logoText">American Family Voices</div>
                                   <div className="logoText">The Center for Victims of Torture</div>
                                   <div className="logoText">Common Defense</div>
-                                  <div className="logoText">Daily KOs</div>
+                                  <div className="logoText">Daily Kos</div>
                                   <div className="logoText">Demand Progress</div>
                                   <div className="logoText">Democracy for America</div>
                                   <div className="logoText">Friends of the Earth</div>
