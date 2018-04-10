@@ -20,10 +20,26 @@ class Footer extends Component {
                                   <img alt="Common Defense" src="/images/Common-Defense-logo_preview.png" />
                               </a>
 
+                               <a target="_blank">
+                                  <img alt="Democracy for America" src="/images/DFA-Logo-bottom-white-400.png" />
+                              </a>
+
                               <a target="_blank">
                                   <img alt="Progressive Congress Action Fund" src="/images/progressive_congress_fund.jpg" />
                               </a>
-                            
+                              <div className="logoText">
+                                  <p >About Face</p>
+                                  <p>American Family Voices</p>
+                                  <p>The Center for Victims of Torture</p>
+                                  <p>Demand Progress Action</p>
+                                  <p>Friends of the Earth</p>
+                                  <p>People Demanding Action</p>
+                                  <p>People for the American Way</p>
+                                  <p>Progress America</p>
+                                  <p>People for the American Way</p>
+                                  <p>UltraViolet</p>
+                                  <p>Working Families Party</p>                       
+                              </div>       
                           </div>
                           <p style={{marginBottom: "50px"}}>Endorsing organizations:</p> 
                           <div className="logos" style={{display: "flex", flexFlow: "row wrap", justifyContent: "center", alignItems: "center", marginTop: "-50px", borderBottomColor:"white"}}>
@@ -51,9 +67,7 @@ class Footer extends Component {
                                   <img alt="Win Without War" src="/images/winwithoutwar.jpg" />
                               </a>
                               {/*
-                              <a target="_blank">
-                                  <img alt="Democracy for America" src="images/DFA-Logo-bottom-white-400.png" />
-                              </a>
+                             
 
                               <a target="_blank">
                                   <img alt="Friends Committee on National Legislation" src="images/FCNL logo_preview.png" />
