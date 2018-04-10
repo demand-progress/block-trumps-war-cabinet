@@ -4877,6 +4877,11 @@
 	                                    _react2.default.createElement(
 	                                        "div",
 	                                        { className: "logoText" },
+	                                        "Watchdog.net"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "logoText" },
 	                                        "Win Without War"
 	                                    ),
 	                                    _react2.default.createElement(

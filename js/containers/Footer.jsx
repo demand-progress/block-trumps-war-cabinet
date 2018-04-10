@@ -30,6 +30,7 @@ class Footer extends Component {
                                   <div className="logoText">Roots Action</div>
                                   <div className="logoText">The Nation</div>
                                   <div className="logoText">UltraViolet</div>
+                                  <div className="logoText">Watchdog.net</div>
                                   <div className="logoText">Win Without War</div>
                                   <div className="logoText">Working Families Party</div>
                               </div>
