@@ -24,7 +24,7 @@ class Main extends Component {
                             <p>
                                 Trump has nominated his current CIA head, Mike Pompeo, to become Secretary of State. Pompeo has historically supported torture, chose torturer Haspel as his deputy at the CIA, and has said that all Muslims are "potentially complicit" in terrorism. 
                                 <br/><br/>
-                                As Secretary of State he would be in charge of certifying Iran's compliance with the Iran deal -- which he has asserted his desire to undermine. He has refused to foreclose upon the possibility of launching a preventative war with North Korea, and his support for unauthorized American involvement in conflicts such as that in Yemen. 
+                                As Secretary of State he would be in charge of certifying Iran’s compliance with the nuclear deal -- which he has asserted his desire to undermine. He has refused to foreclose upon the possibility of launching a preventive war with North Korea, and his support for unauthorized American involvement in conflicts such as that in Yemen.
                                 <br/><br/>
                                 The State Department is supposed to play a key role in international climate negotiations, human rights, and preserving peace around the world. But Pompeo is a climate-denying, Islamophobic warmonger who is deep in the pockets of the Koch Brothers.
                                 <br/><br/>
@@ -36,7 +36,7 @@ class Main extends Component {
                                 <img src="../images/haspel.png" alt="Gina Haspel"/>
                             </div>
                             <p>
-                                Gina Haspel, the CIA Director nominee, oversaw torture programs in secret prisons abroad -- and then engaged in a cover-up by pushing for the destruction of tapes of the interrogations during which torture took place.The European Center for Constitutional and Human Rights has called for Haspel's arrest for her role in the torture of detainees.
+                                Gina Haspel, the CIA Director nominee, oversaw torture programs in secret prisons abroad -- and then engaged in a cover-up by pushing for the destruction of tapes of the interrogations during which torture took place. The European Center for Constitutional and Human Rights has called for Haspel's arrest for her role in the torture of detainees.
                                 <br/><br/>
                             </p>
                         </div>
@@ -46,7 +46,7 @@ class Main extends Component {
                                 <img src="../images/johnbolton.jpeg" alt="John Bolton"/>
                             </div>
                             <p>
-                                And Trump replaced his National Security Advisor with John Bolton, who was an architect of the war in Iraq -- and who wishes that it had never ended, having asserted “Iraq today suffers not from the 2003 invasion, but from the 2011 withdrawal of all US combat forces.” 
+                                Trump replaced his National Security Advisor with John Bolton, who was an architect of the war in Iraq -- and who wishes that it had never ended, having asserted “Iraq today suffers not from the 2003 invasion, but from the 2011 withdrawal of all US combat forces.”
                                 <br/><br/>
                                 Bolton has argued for a so-called preventive strike on Iran, and thinks that a preventive attack on North Korea would be justified. His appointment does not require Senate approval -- but if we can prevent Haspel's and Pompeo's confirmations, then Bolton will be less powerful.
                                 <br/><br/>   
@@ -58,7 +58,7 @@ class Main extends Component {
                         <br/><br/>
                     </p>
                     <p>
-                        <strong><a className="back-to-form-link" href="#signThePetition">Please click to send an email demanding that your Senators oppose Haspel’s confirmation as CIA Director and Pompeo’s confirmation as Secretary of State. </a></strong>
+                        <strong><a className="back-to-form-link" href="#signThePetition">Please click to send an email demanding that your senators oppose Haspel’s confirmation as CIA Director and Pompeo’s confirmation as Secretary of State. </a></strong>
                     </p>
                 </div>
             </div>

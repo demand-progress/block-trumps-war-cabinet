@@ -64,7 +64,7 @@ class CallInitiate extends Component {
             <br/><br/>
             <div style={{color: 'white', lineHeight: 1.5}}>
               <strong style={{ fontSize: "25px" }}>
-              Please make a call help block Trump's War Cabinet.
+              Please make a call to help block Trump's War Cabinet.
               </strong>
               <br/><br/>
             </div>
