@@ -4787,122 +4787,103 @@
 	                                "div",
 	                                { className: "logos", style: { display: "flex", flexFlow: "row wrap", justifyContent: "center", alignItems: "center", marginTop: "-50px", borderBottomColor: "white" } },
 	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Watchdog.net", src: "/images/logo-360px.png" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Common Defense", src: "/images/Common-Defense-logo_preview.png" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Democracy for America", src: "/images/DFA-Logo-bottom-white-400.png" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Progressive Congress Action Fund", src: "/images/progressive_congress_fund.jpg" })
-	                                ),
-	                                _react2.default.createElement(
 	                                    "div",
-	                                    { className: "logoText" },
+	                                    { className: "logoTextContainer" },
 	                                    _react2.default.createElement(
-	                                        "p",
-	                                        null,
+	                                        "div",
+	                                        { className: "logoText" },
 	                                        "About Face"
 	                                    ),
 	                                    _react2.default.createElement(
-	                                        "p",
-	                                        null,
+	                                        "div",
+	                                        { className: "logoText" },
 	                                        "American Family Voices"
 	                                    ),
 	                                    _react2.default.createElement(
-	                                        "p",
-	                                        null,
+	                                        "div",
+	                                        { className: "logoText" },
 	                                        "The Center for Victims of Torture"
 	                                    ),
 	                                    _react2.default.createElement(
-	                                        "p",
-	                                        null,
-	                                        "Demand Progress Action"
+	                                        "div",
+	                                        { className: "logoText" },
+	                                        "Common Defense"
 	                                    ),
 	                                    _react2.default.createElement(
-	                                        "p",
-	                                        null,
+	                                        "div",
+	                                        { className: "logoText" },
+	                                        "Daily KOs"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "logoText" },
+	                                        "Demand Progress"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "logoText" },
+	                                        "Democracy for America"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "logoText" },
 	                                        "Friends of the Earth"
 	                                    ),
 	                                    _react2.default.createElement(
-	                                        "p",
-	                                        null,
+	                                        "div",
+	                                        { className: "logoText" },
+	                                        "Peace Action"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "logoText" },
 	                                        "People Demanding Action"
 	                                    ),
 	                                    _react2.default.createElement(
-	                                        "p",
-	                                        null,
+	                                        "div",
+	                                        { className: "logoText" },
 	                                        "People for the American Way"
 	                                    ),
 	                                    _react2.default.createElement(
-	                                        "p",
-	                                        null,
+	                                        "div",
+	                                        { className: "logoText" },
 	                                        "Progress America"
 	                                    ),
 	                                    _react2.default.createElement(
-	                                        "p",
-	                                        null,
+	                                        "div",
+	                                        { className: "logoText" },
+	                                        "Progressive Congress Action Fund"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "logoText" },
 	                                        "People for the American Way"
 	                                    ),
 	                                    _react2.default.createElement(
-	                                        "p",
-	                                        null,
+	                                        "div",
+	                                        { className: "logoText" },
+	                                        "Roots Action"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "logoText" },
+	                                        "The Nation"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "logoText" },
 	                                        "UltraViolet"
 	                                    ),
 	                                    _react2.default.createElement(
-	                                        "p",
-	                                        null,
+	                                        "div",
+	                                        { className: "logoText" },
+	                                        "Win Without War"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "logoText" },
 	                                        "Working Families Party"
 	                                    )
-	                                )
-	                            ),
-	                            _react2.default.createElement(
-	                                "p",
-	                                { style: { marginBottom: "50px" } },
-	                                "Endorsing organizations:"
-	                            ),
-	                            _react2.default.createElement(
-	                                "div",
-	                                { className: "logos", style: { display: "flex", flexFlow: "row wrap", justifyContent: "center", alignItems: "center", marginTop: "-50px", borderBottomColor: "white" } },
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Daily Kos", src: "/images/DailyKosLogo.png" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Demand Progress", src: "/images/demand-progress.png" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Peace Action", src: "/images/PeaceActionLogo_rgb_preview.png" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Roots Action", src: "/images/RootsAction.png" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "The Nation", src: "/images/Nation.jpg" })
-	                                ),
-	                                _react2.default.createElement(
-	                                    "a",
-	                                    { target: "_blank" },
-	                                    _react2.default.createElement("img", { alt: "Win Without War", src: "/images/winwithoutwar.jpg" })
 	                                )
 	                            )
 	                        ),

@@ -5,15 +5,20 @@ html {
 }
 
 .logoText {
-    width: 200px;
     height: auto;
-}
-
-.logoText p {
-    color: black;
-    font-size: 2em;
+    width: 250px;
+    height: auto;
+    font-size: 30px;
+    display: inline-block;
     line-height: 1;
     font-family: 'Poppins', sans-serif;
+    color: black;
+    margin: 0 0 50px;
+    vertical-align: middle;
+}
+
+.logoTextContainer {
+    display: inline-block;
 }
 
 body {
