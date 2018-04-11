@@ -27,7 +27,6 @@ class Footer extends Component {
                                   <div className="logoText">People for the American Way</div>
                                   <div className="logoText">Progress America</div>
                                   <div className="logoText">Progressive Congress Action Fund</div>
-                                  <div className="logoText">People for the American Way</div>
                                   <div className="logoText">RootsAction.org</div>
                                   <div className="logoText">The Nation</div>
                                   <div className="logoText">UltraViolet</div>

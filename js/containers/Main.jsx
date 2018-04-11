@@ -54,7 +54,7 @@ class Main extends Component {
                         </div>
                     </div>
                     <p>
-                        The confirmation of Haspel or Pompeo would normalize torture, jeopardize human rights, increase the likelihood of war -- and of war crimes, and empower the worst impulses of President Trump and John Bolton.
+                        The confirmation of Pompeo and/or Haspel would normalize torture, jeopardize human rights, increase the likelihood of war -- and of war crimes, and empower the worst impulses of President Trump and John Bolton.
                         <br/><br/>
                     </p>
                     <p>

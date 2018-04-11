@@ -4862,11 +4862,6 @@
 	                                    _react2.default.createElement(
 	                                        "div",
 	                                        { className: "logoText" },
-	                                        "People for the American Way"
-	                                    ),
-	                                    _react2.default.createElement(
-	                                        "div",
-	                                        { className: "logoText" },
 	                                        "RootsAction.org"
 	                                    ),
 	                                    _react2.default.createElement(
@@ -5113,7 +5108,7 @@
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'The confirmation of Haspel or Pompeo would normalize torture, jeopardize human rights, increase the likelihood of war -- and of war crimes, and empower the worst impulses of President Trump and John Bolton.',
+	                            'The confirmation of Pompeo and/or Haspel would normalize torture, jeopardize human rights, increase the likelihood of war -- and of war crimes, and empower the worst impulses of President Trump and John Bolton.',
 	                            _react2.default.createElement('br', null),
 	                            _react2.default.createElement('br', null)
 	                        ),
@@ -5989,7 +5984,7 @@
 	          _react2.default.createElement(
 	            'div',
 	            null,
-	            'Email your senators now and tell them to block Trump\'s War Cabinet by opposing the nominations of Mike Pompeo and Gina Haspel'
+	            'Email your senators now and tell them to block Trump\'s War Cabinet by opposing the nominations of Mike Pompeo and Gina Haspel.'
 	          ),
 	          _react2.default.createElement('br', null),
 	          _react2.default.createElement('br', null),
@@ -6048,7 +6043,7 @@
 	          _react2.default.createElement(
 	            'i',
 	            null,
-	            '"Please oppose both Haspel\'s and Pompeo\'s nominations and otherwise do everything in your power to prevent the advancement of these two dangerous nominees. The appointment of John Bolton as National Security Advisor, along with the nominations of Gina Haspel for Director of the Central Intelligence Agency (CIA) and Mike Pompeo for Secretary of State, represent an aggressive shift in posture and could well put us on a path to more war. The State Department is supposed to play a key role in international climate negotiations, human rights, and preserving peace around the world. But Pompeo is deeply Islamophobic, a climate denier, and a warmonger. Moreover, their histories of support for, and involvement in, torture are disqualifying in their own right. "'
+	            '"Please oppose the nominations of Mike Pompeo and Gina Haspel and otherwise do everything in your power to prevent the advancement of these two dangerous nominees. The appointment of John Bolton as National Security Advisor, along with the nominations of Pompeo for Secretary of State and Haspel for Director of the Central Intelligence Agency (CIA), represent an aggressive shift in posture and could well put us on a path to more war -- and war crimes. The State Department is supposed to play a key role in international climate negotiations, human rights, and preserving peace around the world, but Pompeo is deeply Islamophobic, a climate denier, and a warmonger. Moreover, their respective histories of support for, and involvement in, torture are disqualifying in their own rights."'
 	          )
 	        ),
 	        _react2.default.createElement('hr', null)
