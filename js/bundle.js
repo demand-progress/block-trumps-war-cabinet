@@ -4862,6 +4862,11 @@
 	                                    _react2.default.createElement(
 	                                        "div",
 	                                        { className: "logoText" },
+	                                        "Public Citizen"
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "logoText" },
 	                                        "RootsAction.org"
 	                                    ),
 	                                    _react2.default.createElement(
