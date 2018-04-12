@@ -5036,7 +5036,7 @@
 	                        ),
 	                        _react2.default.createElement(
 	                            'div',
-	                            { 'class': 'flex-container' },
+	                            { className: 'flex-container' },
 	                            _react2.default.createElement(
 	                                'div',
 	                                { className: 'flex-item' },
@@ -5528,10 +5528,7 @@
 	        _react2.default.createElement(
 	            'p',
 	            null,
-	            '"I am a constituent of Senator _____. Please oppose Trump\'s nominations of Mike Pompeo for Secretary of State and Gina Haspel to lead the CIA, and do everything in your power to prevent the advancement of these two dangerous nominees.',
-	            _react2.default.createElement('br', null),
-	            _react2.default.createElement('br', null),
-	            'They, along with John Bolton as National Security Advisor, represent an aggressive shift in posture and could well put us on a path to more war -- as well as torture and other war crimes."'
+	            '"I am a constituent of Senator _____. Please oppose Trump\'s nominations of Mike Pompeo for Secretary of State and Gina Haspel to lead the CIA, and do everything in your power to prevent the advancement of these two dangerous nominees.  They will put us on a path to more war -- as well as torture and other war crimes."'
 	        )
 	    );
 	};
@@ -6034,7 +6031,7 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          'p',
+	          'div',
 	          { style: { color: 'white', textAlign: 'center' } },
 	          _react2.default.createElement(
 	            'h4',

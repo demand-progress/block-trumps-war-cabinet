@@ -15,7 +15,7 @@ class Main extends Component {
                 
                 <div className="unit">
                     <h4 style={{color: 'white', textAlign: 'center'}}>More information:</h4>
-                    <div class="flex-container">
+                    <div className="flex-container">
                         <div className="flex-item">
                             <div className="imageSection">
                                 <p className="imageHeaders">Secretary of State, Mike Pompeo:</p>

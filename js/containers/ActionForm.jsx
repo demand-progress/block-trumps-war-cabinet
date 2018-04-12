@@ -159,9 +159,9 @@ class ActionForm extends Component {
             </form>
            </div>
               <span><i>One or more of the participating organizations (listed at bottom) may email you about their campaigns.</i></span>
-          <p style={{color: 'white', textAlign: 'center'}}>
+          <div style={{color: 'white', textAlign: 'center'}}>
               <h4>Here's the language that will be sent to Senate:</h4>
-          </p>
+          </div>
           <p style={{color: 'white', textAlign: 'center'}}>
             <i>
                 "Please oppose the nominations of Mike Pompeo and Gina Haspel and otherwise do everything in your power to prevent the advancement of these two dangerous nominees. The appointment of John Bolton as National Security Advisor, along with the nominations of Pompeo for Secretary of State and Haspel for Director of the Central Intelligence Agency (CIA), represent an aggressive shift in posture and could well put us on a path to more war -- and war crimes. The State Department is supposed to play a key role in international climate negotiations, human rights, and preserving peace around the world, but Pompeo is deeply Islamophobic, a climate denier, and a warmonger. Moreover, their respective histories of support for, and involvement in, torture are disqualifying in their own rights."
