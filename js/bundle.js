@@ -4877,11 +4877,6 @@
 	                                    _react2.default.createElement(
 	                                        "div",
 	                                        { className: "logoText" },
-	                                        "UltraViolet"
-	                                    ),
-	                                    _react2.default.createElement(
-	                                        "div",
-	                                        { className: "logoText" },
 	                                        "Watchdog.net"
 	                                    ),
 	                                    _react2.default.createElement(
