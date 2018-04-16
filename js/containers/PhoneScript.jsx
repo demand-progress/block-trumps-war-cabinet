@@ -15,6 +15,10 @@ class PhoneScriptForm extends Component {
          this.onClickSendFeedback = this.onClickSendFeedback.bind(this)
     }
 
+    componentDidMount () { 
+        fbq('track', 'CompleteRegistration');
+    }
+
     onClickSendFeedback(e) {
         e.preventDefault();
 
