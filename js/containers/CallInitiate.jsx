@@ -13,6 +13,10 @@ class CallInitiate extends Component {
         
         this.onPhoneFormSubmit = this.onPhoneFormSubmit.bind(this)
     }
+
+    componentDidMount () { 
+      fbq('track', 'Lead'); 
+    }
     
     onPhoneFormSubmit(e) {
         e.preventDefault();
