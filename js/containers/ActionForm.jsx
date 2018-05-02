@@ -134,7 +134,8 @@ class ActionForm extends Component {
             <br/><br/>
             <div style={{color: 'white', lineHeight: 1.5}}>
               <strong style={{ fontSize: "25px" }}>
-                  Trump's new cabinet nominees risk putting us on paths to war with Iran and North Korea.  They've overseen and support torture, and will continue American support for the Saudi war in Yemen.  The Senate must reject them.
+                Trump's new cabinet nominees risk putting us on the path to new wars — and war crimes.<br/>
+                Gina Haspel, his nominee for CIA director has overseen and worked to cover up torture — and must be rebuked.
               </strong>
                 <br/><br/>
                 <div>
@@ -164,7 +165,7 @@ class ActionForm extends Component {
           </div>
           <p style={{color: 'white', textAlign: 'center'}}>
             <i>
-                "Please oppose the nominations of Mike Pompeo and Gina Haspel and otherwise do everything in your power to prevent the advancement of these two dangerous nominees. The appointment of John Bolton as National Security Advisor, along with the nominations of Pompeo for Secretary of State and Haspel for Director of the Central Intelligence Agency (CIA), represent an aggressive shift in posture and could well put us on a path to more war -- and war crimes. The State Department is supposed to play a key role in international climate negotiations, human rights, and preserving peace around the world, but Pompeo is deeply Islamophobic, a climate denier, and a warmonger. Moreover, their respective histories of support for, and involvement in, torture are disqualifying in their own rights."
+            "Please oppose the nomination of Gina Haspel and otherwise do everything in your power to prevent the advancement of this dangerous nominee. The appointment of John Bolton as National Security Advisor, along with the nominations of Pompeo for Secretary of State and Haspel for Director of the Central Intelligence Agency (CIA), represent an aggressive shift in posture and could well put us on a path to more war -- and war crimes. Haspel’s history of involvement in, and attempts to cover up, torture must be rebuked and is disqualifying.""
             </i>
           </p>
           <hr/>
