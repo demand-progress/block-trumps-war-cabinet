@@ -5986,6 +5986,7 @@
 	            { style: { fontSize: "25px" } },
 	            'Trump\'s new cabinet nominees risk putting us on the path to new wars \u2014 and war crimes.',
 	            _react2.default.createElement('br', null),
+	            _react2.default.createElement('br', null),
 	            'Gina Haspel, his nominee for CIA director has overseen and worked to cover up torture \u2014 and must be rebuked.'
 	          ),
 	          _react2.default.createElement('br', null),
@@ -6052,7 +6053,7 @@
 	          _react2.default.createElement(
 	            'i',
 	            null,
-	            '"Please oppose the nomination of Gina Haspel and otherwise do everything in your power to prevent the advancement of this dangerous nominee. The appointment of John Bolton as National Security Advisor, along with the nominations of Pompeo for Secretary of State and Haspel for Director of the Central Intelligence Agency (CIA), represent an aggressive shift in posture and could well put us on a path to more war -- and war crimes. Haspel\u2019s history of involvement in, and attempts to cover up, torture must be rebuked and is disqualifying.""'
+	            '"Please oppose the nomination of Gina Haspel and otherwise do everything in your power to prevent the advancement of this dangerous nominee. The appointment of John Bolton as National Security Advisor, along with the nominations of Pompeo for Secretary of State and Haspel for Director of the Central Intelligence Agency (CIA), represent an aggressive shift in posture and could well put us on a path to more war -- and war crimes. Haspel\u2019s history of involvement in, and attempts to cover up, torture must be rebuked and is disqualifying.'
 	          )
 	        ),
 	        _react2.default.createElement('hr', null)
