@@ -5528,7 +5528,7 @@
 	        _react2.default.createElement(
 	            'p',
 	            null,
-	            '"I am a constituent of Senator _____. Please oppose Trump\'s nominations of Gina Haspel to lead the CIA. Haspel\'s history of involvement in, and attempts to cover up, torture must be rebuked and is disqualifying."'
+	            '"I am a constituent of Senator _____. Please oppose Trump\'s nomination of Gina Haspel to lead the CIA. Haspel\'s history of involvement in, and attempts to cover up, torture must be rebuked and is disqualifying."'
 	        )
 	    );
 	};
@@ -5994,7 +5994,7 @@
 	          _react2.default.createElement(
 	            'div',
 	            null,
-	            'Email your senators now and tell them to block Trump\'s War Cabinet by opposing the nominations of Mike Pompeo and Gina Haspel.'
+	            'Email your senators now and tell them to block Trump\'s War Cabinet by opposing the nomination of Gina Haspel.'
 	          ),
 	          _react2.default.createElement('br', null),
 	          _react2.default.createElement('br', null),
