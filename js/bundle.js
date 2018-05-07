@@ -4802,11 +4802,6 @@
 	                                    _react2.default.createElement(
 	                                        "div",
 	                                        { className: "logoText" },
-	                                        "The Center for Victims of Torture"
-	                                    ),
-	                                    _react2.default.createElement(
-	                                        "div",
-	                                        { className: "logoText" },
 	                                        "Common Defense"
 	                                    ),
 	                                    _react2.default.createElement(
